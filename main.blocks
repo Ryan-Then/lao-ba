@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="Cy0*ZJKa*1:BL#^_?K@*" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="}/d+@~knm(kd4znAz8WS"><mutation elseif="5" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="zoombit_is_line_detected_on" id="N1h?eQ|;Iu917F#v(W19"><field name="position">LinePosition.Center</field></block></value><statement name="DO0"><block type="zoombit_move" id="P_?=A}y^!{y@u({Z9$:0"><field name="direction">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id=")=5]PKj47{_id8Va(Y=r"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="Hkw/7HP$30ilY3YpVOYE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF1"><block type="zoombit_is_line_detected_on" id=",}8rchT}=xtZMZ$s;_|k"><field name="position">LinePosition.Left1</field></block></value><statement name="DO1"><block type="zoombit_set_motors_speed" id="v,6rG_nKhh%U7a]CP!zU"><value name="leftSpeed"><shadow type="math_number_minmax" id="S%)KYaJUF=!,XI?o^S:~"><mutation min="-255" max="255" label="LeftSpeed" precision="0"/><field name="SLIDER">50</field></shadow></value><value name="rightSpeed"><shadow type="math_number_minmax" id="ZxL?+7?4M6i`^%Imhgkk"><mutation min="-255" max="255" label="RightSpeed" precision="0"/><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="YB^ZkD8Zweiti-am}E%k"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        . . . . # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF2"><block type="zoombit_is_line_detected_on" id="YGD9]Z;XIcJO@4H@QBl@"><field name="position">LinePosition.Right1</field></block></value><statement name="DO2"><block type="zoombit_set_motors_speed" id=")KhA7Oxp`1+7)$2p|6$["><value name="leftSpeed"><shadow type="math_number_minmax" id="[F5n8`od1YCb4-FU8Ip$"><mutation min="-255" max="255" label="LeftSpeed" precision="0"/><field name="SLIDER">100</field></shadow></value><value name="rightSpeed"><shadow type="math_number_minmax" id="}D:J=chK:9NGm*mUr=Pj"><mutation min="-255" max="255" label="RightSpeed" precision="0"/><field name="SLIDER">50</field></shadow></value><next><block type="device_show_leds" id="mL7;$C))=p?XJW8`Rg.P"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # . . . . 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF3"><block type="zoombit_is_line_detected_on" id="nepQMIuKVldZHz70GKSy"><field name="position">LinePosition.Left2</field></block></value><statement name="DO3"><block type="zoombit_set_motors_speed" id="Vr@pmC$:6BnGUR!QW-I]"><value name="leftSpeed"><shadow type="math_number_minmax" id="ul|D`a7RilO~Al3yvwcp"><mutation min="-255" max="255" label="LeftSpeed" precision="0"/><field name="SLIDER">0</field></shadow></value><value name="rightSpeed"><shadow type="math_number_minmax" id="}_{JH_.1X.Tx}wNiQh1E"><mutation min="-255" max="255" label="RightSpeed" precision="0"/><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id=";7#ADJuR`/nxnDpZ=A7/"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        . . # # # 
+        . . # # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF4"><block type="zoombit_is_line_detected_on" id=",ahQsd3q35o+}0Dp#/`e"><field name="position">LinePosition.Right2</field></block></value><statement name="DO4"><block type="zoombit_set_motors_speed" id="?(XY~v|r-#($jjrXUZa7"><value name="leftSpeed"><shadow type="math_number_minmax" id="X/5C=Des_`|Yr#|(sxM{"><mutation min="-255" max="255" label="LeftSpeed" precision="0"/><field name="SLIDER">100</field></shadow></value><value name="rightSpeed"><shadow type="math_number_minmax" id="cnfU)V(PUhpo2Zkpme?N"><mutation min="-255" max="255" label="RightSpeed" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id="(Tuj,=8Iq_Ug)405384j"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # . . 
+        . # # . . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF5"><block type="zoombit_is_line_detected_on" id="vl(y.~!JS(8i]#0lLefg"><field name="position">LinePosition.None</field></block></value><statement name="DO5"><block type="zoombit_move" id="FC)s%!wDJ[$mULOf4d3O"><field name="direction">MotorDirection.Backward</field><value name="speed"><shadow type="math_number_minmax" id="3ws+/#jOjr^6?/Zn_Dx-"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">70</field></shadow></value><next><block type="device_show_leds" id="K/GMWj:6:04hP2be2lH`"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="zoombit_set_motors_speed" id="pfvvRD-g}-p9epX_AFq)"><value name="leftSpeed"><shadow type="math_number_minmax" id="gWp7^!;q/$Qr2af`1gP|"><mutation min="-255" max="255" label="LeftSpeed" precision="0"/><field name="SLIDER">0</field></shadow></value><value name="rightSpeed"><shadow type="math_number_minmax" id="zA)B,v,_jy,V/IEl[Ue9"><mutation min="-255" max="255" label="RightSpeed" precision="0"/><field name="SLIDER">0</field></shadow></value></block></statement></block></statement></block></xml>
